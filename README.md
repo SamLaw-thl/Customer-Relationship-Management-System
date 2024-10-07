@@ -1,7 +1,5 @@
 # Customer Relationship Management (CRM) System
-
-# Overview
-This Python-based CRM system allows you to manage customer data, track products, handle support tickets, and authenticate users. It uses an SQLite database to store information securely.
+This Python-based Customer Relationship Management system allows you to manage customer data, track products, handle support tickets, and authenticate users. It uses an SQLite database to store information securely.
 
 # Database Schema
 ![schema](.\img\CusReMa_schema.png)
@@ -57,23 +55,42 @@ Getting Started
 # Example Usage
 1. Adding a new customer:
 ```
+1. Add customer
+2. Add product
+3. Add support
+4. Add a ticket
+5. Add a user
 Choose an option: 1
-Enter contact_no: 1234567890
-Enter purchase_hist: 5
-Enter ticket_hist: 3
-Enter payment_type: credit card
+
+Enter contact_no: +1 123-456-7890
+Enter purchase_hist: Frequent buyer
+Enter ticket_hist: Issue resolved promptly
+Enter payment_type: Credit card
 Customer added successfully.
+
 ```
 
-2. Printing customer data:
+2. Viewing Customer Data by Payment Type:
 ```
-Choose an option: 2
 1. Print customer table
 2. Print product table
 3. Print support table
 4. Print customer data based on payment type
-Choose an option: 1
-customer_id: 1, contact_no: 1234567890, purchase_hist: 5, ticket_hist: 3, payment_type: credit card
+Choose an option: 4
+
+Enter the payment type: Credit card
+customer_id: 1, contact_no: +1 123-456-7890, purchase_hist: Frequent buyer, ticket_hist: Issue resolved promptly, payment_type: Credit card
+
+```
+
+3. Exporting Product Data to CSV
+```
+1. Export customer data to csv
+2. Export product data to csv
+3. Export support data to csv
+Choose an option: 2
+
+Product data successfully exported to product_data.csv
 ```
 
 # License
