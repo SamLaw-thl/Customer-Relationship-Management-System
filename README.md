@@ -2,7 +2,7 @@
 This Python-based Customer Relationship Management system allows you to manage customer data, track products, handle support tickets, and authenticate users. It uses an SQLite database to store information securely.
 
 # Database Schema
-![schema](.\img\CusReMa_schema.png)
+![schema](./img/CusReMa_schema.png)
 
 # Features
 1. User Authentication:
